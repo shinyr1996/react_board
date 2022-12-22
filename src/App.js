@@ -1,11 +1,13 @@
 import './App.css';
-import Button from 'react-bootstrap/Button'
+import BoardNav from './route/BoardNav';
 
 function App() {
   return (
     <div className="App">
-      리엑트 게시판 만들기
-      <Button>버튼</Button>
+      <BoardNav />
+      {/* <BoardNav />
+      <BoardList />
+      <Button>글쓰기</Button> */}
     </div>
   );
 }
